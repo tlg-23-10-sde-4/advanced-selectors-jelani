@@ -1,3 +1,4 @@
+/* Attribute selectors */
 a[title] {
     color: red;
 }
@@ -9,3 +10,31 @@ a[href="https://www.facebook.com"] {
 div[lang~="en-us"] {
     color: blue;
 }    
+
+/* Universal selectors */
+*#maincontent {
+    border: 1px solid orange;
+}  
+
+*[lang^="en"] {
+    color: green;
+  }
+  
+  *.warning {
+    color: red;
+  }
+
+  /* Nesting selectors */
+  .example {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .example > a {
+    color: tomato;
+  }
+  .example > a:hover,
+.example > a:focus {
+  color: ivory;
+  background-color: tomato;
+}
