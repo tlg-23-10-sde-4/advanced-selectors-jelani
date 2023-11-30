@@ -6,4 +6,6 @@ a[href="https://www.facebook.com"] {
     color: green;
 }
 
-/* =================================================================
+div[lang~="en-us"] {
+    color: blue;
+}    
